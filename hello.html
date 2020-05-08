@@ -2,7 +2,23 @@
 <html>
   <head>
       <title>My Webpage!</title>
+      <meta name = "viewport" content="width=device-width, initial-scale=1.0S">
       <style>
+        @media (min-width: 500px) {
+          body {
+            background-color: red;
+          }
+        }
+        @media (max-width: 499px) {
+          body {
+            background-color: blue;
+          }
+        }
+        @media print {
+          .screen-only {
+            display: none;
+          }
+        }
         h1, h2, h3{
           color: purple;
         }
@@ -23,5 +39,6 @@
     <h2>Smaller Headline</h2>
     <h3>Even smaller headline</h3>
     <button>Click me!</button>
+    <p>This is a paragraph</p>
   </body>
 </html>
