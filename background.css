@@ -7,7 +7,7 @@ table, td, th {
 body {
   background-color: black; }
 
-wrapper {
+div {
   display: flex;
   align-items: center;
   justify-content: center; }
