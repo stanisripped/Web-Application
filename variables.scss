@@ -1,4 +1,8 @@
-$color: red;
+$color: black;
+
+body {
+  background-color: $color;
+}
 
 ul {
   font-size: 14px;

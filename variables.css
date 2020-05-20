@@ -1,9 +1,12 @@
+body {
+  background-color: black; }
+
 ul {
   font-size: 14px;
-  color: red; }
+  color: black; }
 
 ol {
   font-size: 18px;
-  color: red; }
+  color: black; }
 
 /*# sourceMappingURL=variables.css.map */

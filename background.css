@@ -1,0 +1,19 @@
+table, td, th {
+  border: 5px outset black;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold; }
+
+body {
+  background-color: black; }
+
+wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+ol {
+  font-size: 18px;
+  color: black; }
+
+/*# sourceMappingURL=background.css.map */

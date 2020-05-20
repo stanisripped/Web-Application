@@ -1,0 +1,23 @@
+$color: black;
+
+table,td,th {
+  border: 5px outset $color;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+  body {
+    background-color: $color;
+  }
+
+wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ol {
+  font-size: 18px;
+  color: $color;
+}
